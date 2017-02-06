@@ -29,18 +29,31 @@
 		<title>app</title>
 	</head>
 	<body>
-	   <div data-role="page" id="landingPage" style="background: white">
+	   <div data-role="page" style="text-shadow:none; background:url('img/bg12.jpg')  no-repeat center;-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;">
 
-			<div data-role="header" style="text-shadow: none;background: #c8b836;">
-				<h1>Scanner</h1>
-				<a href="index.html" data-role="button" data-icon="refresh" data-iconpos="notext" style="background: white;border: none;">Refresh</a>
-			</div><!-- /header -->
-			<img src="img/church.jpeg" width="100%"/>
-			<div data-role="content" style="text-shadow: none">
-				<a data-role="button" id="decode" style="border:none;text-shadow: none;background: #c8b836">SCAN</a>
-				<a data-role="button" id="getloc" style="background: #996720;text-shadow: none;border: none;">EXIT</a>
-			</div><!-- /content -->
-		</div><!-- /page -->
+			<div data-role="content" style="text-align: center;  padding-top:50px; background: none">
+
+				<img src="img/deywuro.png" style="margin-bottom: 50px;"/>
+				<div class="login-form" style=" padding: 45px;text-align: center; font-family: 'Roboto', sans-serif; outline: 0;background: none;">
+					<input type="text" placeholder="username" style="height: 50px;width: 100%;border:none; font-weight: bolder;padding-left: 10px;color: gray;background: white;"/>
+					<br />
+					<input type="password" placeholder="password" style="height: 50px;width: 100%;border:none; font-weight: bolder;padding-left: 10px;color: gray;background: white;"/>
+					<br />
+					<br />
+					<a href="menu.html" rel="external">
+					<button class="ui-btn" id="btnLogin" style="background: #f7ba4f;width: 100%;height: 40px;border:1px solid #f7ba4f; color:white;font-weight: bolder">
+						login
+					</button></a>
+					<p class="message" style="color :#f7ba4f; font-weight: bolder;">
+						Not registered? <a href="#"  style="color: white;text-decoration: none;">Join Us</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
 
 	<!----------------------------->
 		
